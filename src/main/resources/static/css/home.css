@@ -2,6 +2,9 @@ body{
     font-family: 'Exo', sans-serif;
 }
 
+.result{
+    color: white;
+}
 
 .context {
     width: 100%;

@@ -12,21 +12,34 @@
             defer></script>
 </head>
 <body>
-<div class="content">
-    <nav class="navbar ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">HackTheWorld</a>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="mb-3">
-                    <h1>Rapport De Sécurité</h1>
-                    <br>
-                    <br>
-
-                    <p th:text="${results}"></p>
+<div class="area">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="content">
+        <nav class="navbar ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">HackTheWorld</a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <h1>Rapport De Sécurité</h1>
+                        <br>
+                        <br>
+                        <p class="result" th:utext="${results}"></p>
+                    </div>
                 </div>
             </div>
         </div>
